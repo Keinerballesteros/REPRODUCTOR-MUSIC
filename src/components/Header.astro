@@ -1,0 +1,47 @@
+---
+import Menu from "./icons/Menu.astro";
+import Instragam from "./icons/Instragam.astro";
+import TikTok from "./icons/TikTok.astro";
+import Twitter from "./icons/Twitter.astro";
+import Twich from "./icons/Twich.astro";
+import Facebook from "././icons/Facebook.astro";
+import Discord  from "./icons/Discord.astro";
+---
+
+<header class="relative w-auto h-full m-0">
+    <div class="absolute  w-full p-0 m-0 top-[-45px]  container_intro h-[1200px] overflow-hidden">
+        <img src="/public/16971477116771.jpg" alt="" class="absolute  w-full -z-10 blur-[4px] brightness-50 min-h-[1200px]">
+    </div>
+    <img src="https://storage.googleapis.com/monstercat/monstercat-logo.webp" class="size-12 mt-[50px] ml-[30px] flex-col">
+    <nav class="ml-auto mr-10 my-0">
+            <ul class="items-center justify-center left-[95%] fixed min-w-[500px]"> <!--Este elemento se desborda en el eje x en 
+                                                                        dispositivos mobiles, si quieres que sea responsive 
+                                                                        arregla eso o fija un ancho minimo esta puede 
+                                                                        ser una buena opcion porque la img que se esta utilizando de background
+                                                                        se distorciona en mobile -->
+                <div>
+                    <Menu></Menu>
+                </div>
+                <a href="#">
+                    <Instragam></Instragam>
+                </a>
+                <a href="#">
+                    <TikTok></TikTok>
+                </a>
+                <a href="#">
+                        <Twitter></Twitter>
+                </a>
+                <a href="#"> 
+                        <Twich></Twich>
+                </a>
+                <a href="#">
+                    
+                        <Facebook></Facebook>
+                </a>
+                <a href="#">
+                    <Discord></Discord>
+                        
+                </a>
+            </ul>
+    </nav>
+</header>
